@@ -1,0 +1,29 @@
+<nav class="navbar navbar-fixed-top main">
+  <div class="container navbar-container">
+    <ul class="navbar-list navbar-links">
+      <li class="navbar-item">
+        <a class="navbar-link" href="{{ site.baseurl }}/">{{ site.title }}</a>
+      </li>
+
+      <div class="right-nav-links">
+
+        <!-- mobile menu button -->
+        <li class="navbar-item mobile-menu-box menu">
+          <a class="navbar-link mobile-button" id="request-menu">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+          </a>
+        </li>
+
+        <div class="menu-items" id="menu-options">
+          <div class="inner-container">
+            {% for post in site.posts %}
+                <li class="navbar-item"><a class="navbar-link" href="{{ post.url }}">{{ post.title }}</a></li>
+            {% endfor %}
+          </div>
+        </div>
+
+      </div>
+
+    </ul>
+  </div>
+</nav>

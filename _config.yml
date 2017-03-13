@@ -1,0 +1,30 @@
+#
+#  Config file
+#
+#  If you make changes to this file while your Jekyll server is running,
+#  You'll need to restart your server.
+# ---------------------------------------------------------------------
+
+# Permalinks
+permalink:        pretty
+
+# Your site's full URL, e.g. "https://my-site.com" - leave this empty
+# until you have/own a domain and a CNAME file.
+# url:
+
+# Set to '' in case of hosting on `http://<your-github-name>.github.io`
+baseurl:          ''
+
+# Site settings
+title: Introduction to JavaScript
+
+# Build settings
+markdown: kramdown
+
+kramdown:
+  math_engine: mathjax
+  math_engine_opts:
+    preview: true
+
+# Adding static pages through `_static/` folder
+include: ['_static']
