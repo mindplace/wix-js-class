@@ -8,7 +8,7 @@ $(document).ready(function() {
 
       for (var i = 0; i < results.length; i++) {  // Iterate over the results
         var item = store[results[i].ref];
-        appendString += '<div class="post-box"><h2 class="header small-header item-header"><a href="' + item.url + '">' + item.title + '</a></h2>';
+        appendString += '<div class="post-box"><h2 class="header small-header item-header"><a href="/wix-js-class' + item.url + '">' + item.title + '</a></h2>';
         appendString += '<p class="item-description">' + item.content.substring(0, 150) + '...</p></div>';
       }
 

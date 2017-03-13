@@ -3,9 +3,6 @@
 .navbar + .docs-section {
   border-top-width: 0; }
 
-// .navbar-container {
-//   position: relative; }
-
 .navbar,
 .navbar-spacer {
   display: block;
@@ -21,12 +18,14 @@
 
 .navbar-list {
   list-style: none;
+  padding: 0;
   margin-bottom: 0; }
 
 .navbar-item {
   position: relative;
   float: left;
   margin-bottom: 0;
+  padding-left: 0;
 
   &:last-child {
     .navbar-link {

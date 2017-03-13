@@ -5,4 +5,58 @@
  .index-section {
    border-bottom: 1px solid #eee;
    margin-bottom: 40px;
+
+   .class-box {
+     margin-bottom: 2rem;
+     border-radius: 5px;
+     padding: 2rem;
+     border: 1px solid #eee;
+
+     header {
+       display: flex;
+       justify-content: space-between;
+       margin-bottom: 1rem;
+       flex-wrap: wrap;
+
+       @media screen and (min-width: $on-laptop) {
+         div {
+           display: flex;
+           flex-direction: column;
+           align-items: flex-end;;
+         }
+       }
+
+       @media screen and (max-width: $on-laptop - 1) {
+         flex-direction: column;
+         margin-bottom: 3rem;
+       }
+
+     }
+
+     .status {
+       @media screen and (min-width: $on-laptop) {
+         display: block;
+         text-align: right;
+       }
+
+       @media screen and (max-width: $on-laptop - 1) {
+         display: inline-block;
+       }
+
+       background-color: #eee;
+       border-radius: 5px;
+       padding: 0.5rem 0.7rem;
+       font-weight: 700;
+       width: 46px; }
+
+    .status-content {
+      @media screen and (min-width: $on-laptop) {
+        display: block;
+      }
+    }
+
+     ul { padding-left: 3rem; }
+
+     p, ul, h3 { margin-bottom: 1rem; }
+   }
  }
