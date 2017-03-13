@@ -1,15 +1,15 @@
 ---
 layout: post
 title: "class[0]"
-description: "First class: introduction to current state of JavaScript, why HTML and CSS is necessary, and setting up a development environment."
-status: "Some resources to get you prepared for this class. Class content (slides, etc) coming soon."
+description: "Introduction to current state of JavaScript, why HTML and CSS is necessary, and setting up a development environment."
+status: "Prep work available!"
 ---
 
 <h2 class="header medium-header">Current state of JavaScript and class context</h2>
 
-JavaScript was built in a mere 10 days for use in the Netscape browser; the creator of JavaScript eventually became the CEO/CTO of Mozilla Firefox (and that's still the company that puts out the best documentation for JavaScript). (<a href="https://www.w3.org/community/webed/wiki/A_Short_History_of_JavaScript" target="blank">Read more of its history here.</a>) JavaScript has no connection with Java; it was named JavaScript to take advantage of Java's popularity at the time!
+JavaScript was built in a mere 10 days for use in the Netscape browser; the creator of JavaScript eventually became the CEO/CTO of Mozilla Firefox (and that's still the company that puts out the best documentation for JavaScript). JavaScript has no connection with Java; it was named JavaScript to take advantage of Java's popularity at the time! (Read more of its history <a href="https://www.w3.org/community/webed/wiki/A_Short_History_of_JavaScript" target="blank">here</a>.)
 
-JavaScript at its core is just another programming language, like PHP, Python, Ruby, Java, C#, etc. The reason JavaScript so widely used is because browsers allow JavaScript code to run natively inside them, as opposed to the other languages. That is the primary reason for its extreme popularity and widespread use.
+JavaScript at its core is just another programming language, like PHP, Python, Ruby, Java, C#, etc. The reason JavaScript so widely used is because browsers can run JavaScript code, as opposed to the other languages. That is the primary reason for its extreme popularity and widespread use.
 
 These days, web applications and websites rely enormously on JavaScript for everything from delivering single-page applications (React or AngularJS), building complete mobile applications  (React Native), listening for user actions such as button clicks (jQuery), running tasks both in the browser and on local computers (Grunt or Gulp), wrapping around databases (Node.js and Express.js), and generally providing interactive functionality for web pages.
 
@@ -29,11 +29,11 @@ You'll need a way to write HTML, CSS, and JavaScript code on your personal compu
 
 Just as you write regular documents in a text editor like Microsoft Word or even something super simple like Notepad, you need a program that will let you write code. Microsoft Word etc will not do this properly, because text editors add a lot of markup (additional characters) to the text saved in them, which would effectively corrupt the code you write.
 
-Download [Atom](https://atom.io/) or [Sublime Text](https://www.sublimetext.com/download). These are some of the best rated (and free!) code editors around. If you already have a code editor, use that. The important thing is to be able to create and edit files ending in `.js`, `.html`, `.css`, `.md`, etc. *My recommendation: use **Atom**.*
+Download <a href="https://atom.io/" target="blank">Atom</a> *That's the one I use* or <a href="https://www.sublimetext.com/download" target="blank">Sublime Text</a>. These are some of the best rated (and free!) code editors around. If you already have a code editor, use that. The important thing is to be able to create and edit files ending in `.js`, `.html`, `.css`, `.md`, etc.
 
 <h3 class="header small-header">Download Chrome.</h3>
 
-The <a href="https://www.google.com/chrome/browser/desktop/" target="blank">Google Chrome browser</a> is the industry's standard for web development, because of its great <a href="https://developers.google.com/web/tools/chrome-devtools/" target="blank">dev tools</a< that allow us insight into what code is loaded, running, affecting, etc on a given page.
+The <a href="https://www.google.com/chrome/browser/desktop/" target="blank">Google Chrome browser</a> is the industry's standard for web development, because of its great <a href="https://developers.google.com/web/tools/chrome-devtools/" target="blank">dev tools</a> that allow us insight into what code is loaded, running, affecting, etc on a given page.
 
 We'll be using Chrome in this class, but other browsers have their own development tools as well. Check out <a href="https://developer.apple.com/library/content/documentation/AppleApplications/Conceptual/Safari_Developer_Guide/GettingStarted/GettingStarted.html" target="blank">Safari's dev tools</a> or <a href="https://developer.mozilla.org/en-US/docs/Tools" target="blank">Mozilla Firefox's dev tools</a>.
 
@@ -47,10 +47,10 @@ To install on a Mac:
 
     Is this the first time you've seen the <a href="http://www.macworld.co.uk/feature/mac-software/get-more-out-of-os-x-terminal-3608274/" target="blank">Terminal</a>? You'll be using probably for every class, so it's a good idea to get a handle on what it is. Get started <a target="blank" href="http://stackforyourself.com/comp-sci/2016/10/01/command-line/">here</a>.
 
-2. Type the following into your terminal and pressing Enter:
+2. Type the following into your terminal and press Enter:
 
     ```
-    ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
     ```
 
     This is to install Homebrew. Homebrew is a package manager for Mac; that means it's sort of like the app store for the Terminal.
@@ -58,13 +58,13 @@ To install on a Mac:
     After it finishes executing and you get your prompt back, type this and press Enter:
 
     ```
-    echo "export PATH='/usr/local/bin:$PATH'" >> ~/.bash_profile
+echo "export PATH='/usr/local/bin:$PATH'" >> ~/.bash_profile
     ```
 
     And after that's done, type this and press Enter:
 
     ```
-    brew install node
+brew install node
     ```
 
     You should now have Node installed. If you type `node -v` into your Terminal and press Enter, you should see output something like this: `v6.9.2`.
@@ -77,13 +77,53 @@ We may not get to cover HTML and CSS in any depth. That said, these are possibly
 
 <h3 class="header small-header">HTML</h3>
 
-HTML is the content on a given web page. It's a bunch of nested tags that contain the material meant to appear on the page. Here's an example:
+HTML, 'Hyper-Text Markup Language', is the content on a given web page. It's a bunch of nested tags that contain the material meant to appear on the page.
 
-. Get started learning more <a href="" target="blank">here</a>.
+Here's an example of some HTML code:
+
+```html
+<div class="my-css-class">
+  <h1>This Is My Heading</h1>
+  <p>This is a paragraph under this heading.</p>
+
+  <button type="button" name="button">Don't bother to click!</button>
+</div>
+```
+
+If you run this code in a browser, it results in:
+
+<div class="my-css-class">
+  <h1 class="header medium-header">This Is My Heading</h1>
+  <p>This is a paragraph under this heading.</p>
+
+  <button type="button" name="button">Don't bother to click!</button>
+</div>
+
+Get started learning more <a href="https://www.w3schools.com/html/html_intro.asp" target="blank">here</a>.
 
 <h3 class="header small-header">CSS</h3>
 
-CSS is the . Get started learning more <a href="" target="blank">here</a>.
+CSS, 'Cascading Stylesheets', is the code that manages how HTML looks on the page. For our example above, the `div` has a class `my-css-class`. Right now that means nothing, but we can target that particular class and tell that `div` to use these styles. Here's what we can write:
+
+```css
+
+.my-css-class {
+  border: 2px dashed red;
+  background: yellow;
+}
+
+```
+
+Together with above HTML, this results in:
+
+<div class="my-css-class" style="padding:20px;margin-bottom:20px;border:2px dashed red;background:yellow;">
+  <h1 class="header medium-header">This Is My Heading</h1>
+  <p>This is a paragraph under this heading.</p>
+
+  <button type="button" name="button">Don't bother to click!</button>
+</div>
+
+Get started learning more <a href="https://www.w3schools.com/css/css_intro.asp" target="blank">here</a>.
 
 <hr>
 
