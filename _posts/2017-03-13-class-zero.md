@@ -3,6 +3,7 @@ layout: post
 title: "class[0]"
 description: "Introduction to current state of JavaScript, why HTML and CSS is necessary, and setting up a development environment."
 status: "Prep work available!"
+permalink: /class-zero
 ---
 
 <h2 class="header medium-header">Current state of JavaScript and class context</h2>
