@@ -163,8 +163,16 @@ h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
   font-size: 2.0rem;
 }
 
-.standard-large-header {
+.large-header {
   font-size: 3.2rem;
+  font-size: 3.2rem;
+  font-weight: 700;
+  color: white;
+  background: #d3d3d3;
+  padding: 10px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
 }
 
 /* Larger than phablet */
