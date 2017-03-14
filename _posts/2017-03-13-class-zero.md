@@ -20,11 +20,15 @@ What we'll be learning is going to hardly touch on any of this, however, althoug
 
 <hr>
 
+<br>
+
 <h2 class="header medium-header">Setting up your development environment</h2>
 
 <h3 class="header">Create a folder on your computer where you'll keep programming files.</h3>
 
 Just create that folder wherever makes sense to you.
+
+<br>
 
 <h3 class="header">Download a code editor.</h3>
 
@@ -34,11 +38,15 @@ Just as you write regular documents in a text editor like Microsoft Word or even
 
 Download <a href="https://atom.io/" target="blank">Atom</a> *(That's the one I use)* or <a href="https://www.sublimetext.com/download" target="blank">Sublime Text</a>. These are some of the best rated (and free!) code editors around. If you already have a code editor, use that. The important thing is to be able to create and edit files ending in `.js`, `.html`, `.css`, `.md`, etc.
 
+<br>
+
 <h3 class="header small-header">Download Chrome.</h3>
 
 The <a href="https://www.google.com/chrome/browser/desktop/" target="blank">Google Chrome browser</a> is the industry's standard for web development, because of its great <a href="https://developers.google.com/web/tools/chrome-devtools/" target="blank">dev tools</a> that allow us insight into what code is loaded, running, affecting, etc on a given page.
 
 We'll be using Chrome in this class, but other browsers have their own development tools as well. Check out <a href="https://developer.apple.com/library/content/documentation/AppleApplications/Conceptual/Safari_Developer_Guide/GettingStarted/GettingStarted.html" target="blank">Safari's dev tools</a> or <a href="https://developer.mozilla.org/en-US/docs/Tools" target="blank">Mozilla Firefox's dev tools</a>.
+
+<br>
 
 <h3 class="header">Install Node.js.</h3>
 
@@ -74,9 +82,13 @@ brew install node
 
 <hr>
 
+<br>
+
 <h2 class="header medium-header">HTML and CSS, and why you need to know them</h2>
 
 We may not get to cover HTML and CSS in any depth. That said, these are possibly more important than JavaScript for web development, in that HTML and CSS actually define the content on any webpage from any website. If you want to manipulate page elements using JavaScript, you cannot do so without at least a basic understanding of HTML and CSS.
+
+<br>
 
 <h3 class="header">HTML</h3>
 
@@ -104,6 +116,8 @@ If you run this code in a browser, it results in:
 
 Get started learning more <a href="https://www.w3schools.com/html/html_intro.asp" target="blank">here</a>.
 
+<br>
+
 <h3 class="header">CSS</h3>
 
 CSS, 'Cascading Stylesheets', is the code that manages how HTML looks on the page. For our example above, the `div` has a class `my-css-class`. Right now that means nothing, but we can target that particular class and tell that `div` to use these styles. Here's what we can write:
@@ -129,6 +143,7 @@ Together with above HTML, this results in:
 Get started learning more <a href="https://www.w3schools.com/css/css_intro.asp" target="blank">here</a>.
 
 <hr>
+<br>
 
 <h2 class="header medium-header">Things to do before the class</h2>
 
