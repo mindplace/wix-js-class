@@ -10,11 +10,11 @@ permalink: /class-zero
 
 <h2 class="header medium-header">Current state of JavaScript and class context</h2>
 
+JavaScript at its core is just another programming language, like PHP, Java, Python, Ruby, Java, C#, etc. The reason for its extreme popularity and widespread use is because browsers can run JavaScript code, as opposed to the other languages.
+
 JavaScript was built in a mere 10 days for use in the Netscape browser; the creator of JavaScript eventually became the CEO/CTO of Mozilla Firefox (and that's still the company that puts out the best documentation for JavaScript). JavaScript has no connection with Java; it was named JavaScript to take advantage of Java's popularity at the time! (Read more of its history <a href="https://www.w3.org/community/webed/wiki/A_Short_History_of_JavaScript" target="blank">here</a>.)
 
-JavaScript at its core is just another programming language, like PHP, Python, Ruby, Java, C#, etc. The reason JavaScript so widely used is because browsers can run JavaScript code, as opposed to the other languages. That is the primary reason for its extreme popularity and widespread use.
-
-These days, web applications and websites rely enormously on JavaScript for everything from delivering single-page applications (React or AngularJS), building complete mobile applications  (React Native), listening for user actions such as button clicks (jQuery), running tasks both in the browser and on local computers (Grunt or Gulp), wrapping around databases (Node.js and Express.js), and generally providing interactive functionality for web pages.
+These days, web applications and websites rely enormously on JavaScript for everything from listening for user actions such as button clicks (jQuery), to delivering single-page applications (React or AngularJS), building complete mobile applications (React Native), running tasks both in the browser and on local computers (Grunt or Gulp), wrapping around databases (Node.js and Express.js), and generally providing interactive functionality for web pages.
 
 What we'll be learning is going to hardly touch on any of this, however, although we will be doing some jQuery. The focus of this class will be on JavaScript basics and fundamentals.
 
@@ -55,6 +55,8 @@ We'll be using Chrome in this class, but other browsers have their own developme
 To install on a Mac:
 
 1. Open your Terminal. (You can find it under Applications/Utilities/Terminal, or you can press  command + space, type 'terminal', and press Enter.)
+
+    <img src="{{ site.baseurl }}/assets/production/images/terminal.jpg" style="width:500px;max-width:100%;">
 
     Is this the first time you've seen the <a href="http://www.macworld.co.uk/feature/mac-software/get-more-out-of-os-x-terminal-3608274/" target="blank">Terminal</a>? You'll be using probably for every class, so it's a good idea to get a handle on what it is. Get started <a target="blank" href="http://stackforyourself.com/comp-sci/2016/10/01/command-line/">here</a>.
 
@@ -114,17 +116,17 @@ If you run this code in a browser, it results in:
   <button type="button" name="button">Don't bother to click!</button>
 </div>
 
-Get started learning more <a href="https://www.w3schools.com/html/html_intro.asp" target="blank">here</a>.
+Get started learning more about HTML <a href="https://www.w3schools.com/html/html_intro.asp" target="blank">here</a>.
 
 <br>
 
 <h3 class="header">CSS</h3>
 
-CSS, 'Cascading Stylesheets', is the code that manages how HTML looks on the page. For our example above, the `div` has a class `my-css-class`. Right now that means nothing, but we can target that particular class and tell that `div` to use these styles. Here's what we can write:
+CSS, 'Cascading Stylesheets', is the code that manages how HTML looks on the page. For our example above, the `div` has a ***class*** called `my-css-style`. You can tell it's a ***class*** because the ***key*** is called `class`, and the ***value*** is what the equal sign points to. Right now the fact that there's a `class` there means nothing. But, we can say that everything that has that particular `class` should have some special styles: this is called 'targeting'. Then, whenever that `class` shows up in the page, its styles are applied to that spot. Here's what we can write:
 
 ```css
 
-.my-css-class {
+.my-css-style {
   border: 2px dashed red;
   background: yellow;
 }
@@ -140,7 +142,7 @@ Together with above HTML, this results in:
   <button type="button" name="button">Don't bother to click!</button>
 </div>
 
-Get started learning more <a href="https://www.w3schools.com/css/css_intro.asp" target="blank">here</a>.
+Get started learning more about CSS <a href="https://www.w3schools.com/css/css_intro.asp" target="blank">here</a>.
 
 <hr>
 <br>
