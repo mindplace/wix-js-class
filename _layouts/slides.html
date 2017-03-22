@@ -3,11 +3,18 @@
 
   {% include head.html %}
 
-  <body id="class-page">
+  <body id="slides-page">
 
     <main>
       {{ content }}
     </main>
+
+    <footer class="footer">
+      <div class="container">
+        
+        <p class="footer-column text"><a href="{{ site.baseurl }}/">{{ site.title }}</a></p>
+      </div>
+    </footer>
 
     {% include javascript.html %}
   </body>
