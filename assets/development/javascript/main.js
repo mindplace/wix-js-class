@@ -24,4 +24,34 @@ $(document).ready(function(e){
     };
   };
 
+  if ($("#class-page").length) {
+    var pages = $(".page-piece");
+    $(pages).hide();
+
+    var current = 0;
+    $(pages[current]).toggle("slide", {direction: "right" }, 800);
+
+    $(document).on('keyup', function(e){
+      var next = e.which == 39 || e.which == 40 || e.which == 32
+      var last = e.which == 37 || e.which == 38
+
+      if (next && (current != pages.length - 1)) {
+        $(pages[current]).hide("slide", { direction: "left" }, 800);
+        current += 1
+        $(pages[current]).show("slide", { direction: "right" }, 800);
+
+      } else if (last && (current > 0)) {
+        $(pages[current]).hide("slide", { direction: "right" }, 800);
+        current -= 1
+        $(pages[current]).show("slide", { direction: "left" }, 800);
+      }
+    });
+
+
+
+
+
+
+  }
+
 });

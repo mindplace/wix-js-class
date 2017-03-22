@@ -160,6 +160,8 @@ You've gotten this far? Awesome! If you're hungry for more, check out <a href="h
 
 <h1 class="large-header">Class materials/content</h1>
 
-*Coming soon!*
+<button>
+  <a href="{{ site.baseurl }}/class-zero-slides">Slides</a>
+</button>
 
 <br><br>
