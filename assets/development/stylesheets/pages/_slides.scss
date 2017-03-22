@@ -39,6 +39,8 @@
       height: 5vh;
     }
 
+    a { display: block; }
+
     .slide-content-container {
       height: 70vh;
       width: 100%;
@@ -54,8 +56,10 @@
         color: white;
         * { font-size: 24px; };
 
-        p:last-child {
-          margin-bottom: 0;
+
+        p {
+          margin-bottom: 10px;
+          &:last-child { margin-bottom: 0; }
         }
 
         ul {

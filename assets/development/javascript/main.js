@@ -54,6 +54,12 @@ $(document).ready(function(e){
       var nextPage = e.which == 39 || e.which == 40 || e.which == 32;
       var lastPage = e.which == 37 || e.which == 38;
 
+      if (lastPage) {
+        currentElement = -1;
+        elements = [];
+        innerScroll = false;
+      }
+
       // Sliding to next page
       if (!innerScroll) {
         if (nextPage && (currentPage != pages.length - 1)) {
