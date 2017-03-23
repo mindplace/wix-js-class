@@ -96,7 +96,14 @@ $(document).ready(function(e){
           } else { innerScroll = false; }
         }
       }
+    });
 
+    // Show info for the slide with text editor shortcut setup
+    $(".atom-box, .sublime-box").hide();
+    $(".show-text-editor").on("click", function(e){
+      var editorRequested = $(this).attr("id");
+      $(".atom-box, .sublime-box").hide();
+      $("." + editorRequested + "-box").show();
     });
   }
 

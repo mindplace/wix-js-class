@@ -71,15 +71,212 @@ permalink: /class-zero-slides
   </div>
 </div>
 
-<!-- Part 3, html and css -->
-<div class="page-piece part-three">
-  <h1></h1>
-
+<div class="page-piece part-two">
+  <h1>Open your terminal</h1>
+  <h2 class="header medium-header">Easiest way: Spotlight Search</h2>
+  <img src="{{ site.baseurl }}/assets/production/images/command_space.png" class="slide-img">
 </div>
 
+<div class="page-piece part-two">
+  <h1>Open your terminal</h1>
+  <h2 class="header medium-header">Type 'terminal' and press Enter</h2>
+  <img src="{{ site.baseurl }}/assets/production/images/spotlight_search.png" class="slide-img">
+</div>
+
+<div class="page-piece part-two">
+  <h1>Create useful shortcuts</h1>
+
+  <div class="slide-content-container" id="select-editor-section">
+
+    <div class="editor-selection-container">
+      <h2 class="header medium-header">I'm using . . .</h2>
+      <a href="#" class="show-text-editor" id="atom"><button type="button" name="button">Atom</button></a>
+      <a href="#" class="show-text-editor" id="sublime"><button type="button" name="button">Sublime</button></a>
+    </div>
+
+    <div class="selected-editor-box">
+      <div class="atom-box text-editor-box">
+        <img src="{{ site.baseurl }}/assets/production/images/shell_commands.jpeg" class="slide-img" id="atom-instructions-img">
+      </div>
+
+      <div class="sublime-box text-editor-box">
+        <p class="part-zero">In your terminal:</p>
+        <code>open -a 'Sublime Text' ~/.bash_profile</code>
+
+        <p class="part-one">That should open Sublime<br>and show you the file .bash_profile.</p>
+        <p class="part-one">At the bottom of the file,<br>on a new line, put the following code:</p>
+        <code>alias subl="open -a 'Sublime Text' "</code>
+
+        <p class="part-three">Save and close.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="page-piece part-two">
+  <h1>Nice! Now, completely quit<br>and restart Terminal.</h1>
+</div>
+
+<div class="page-piece part-two">
+  <h1>Now you can use shortcuts to open<br>folders and files with your text<br>editor from the Terminal.</h1>
+
+  <div class="slide-content-container">
+    <div class="editor-selection-container">
+      <h2 class="header medium-header">I'm using . . .</h2>
+      <a href="#" class="show-text-editor" id="atom"><button type="button" name="button">Atom</button></a>
+      <a href="#" class="show-text-editor" id="sublime"><button type="button" name="button">Sublime</button></a>
+    </div>
+
+    <div class="selected-editor-box">
+      <div class="atom-box text-editor-box">
+        <h2 class="medium-header part-one">In Terminal, navigate into the folder you want to open, then type:</h2>
+        <code>atom .</code>
+      </div>
+
+      <div class="sublime-box text-editor-box">
+        <h2 class="medium-header part-one">In Terminal, navigate into the folder you want to open, then type:</h2>
+        <code>subl .</code>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Part 3, html and css -->
+<div class="page-piece part-three">
+  <h1>HTML</h1>
+
+  <div class="sub-header-container">
+    <h2 class="slide-element medium-header header">Hyper Text Markup Language</h2>
+    <h2 class="slide-element medium-header header">"standard markup language for creating Web pages"<br>- <a target="blank" href="https://www.w3schools.com/html/html_intro.asp">W3Schools</a></h2>
+  </div>
+</div>
+
+<div class="page-piece part-three">
+  <h1>It's markup (extra stuff) that wraps around the text you see on a page.</h1>
+
+  <div class="sub-header-container">
+    <h2 class="slide-element medium-header header">It gives meaning to the text in terms of layout, groups, and more.</h2>
+  </div>
+</div>
+
+<div class="page-piece part-three">
+  <h1>HTML example: code</h1>
+  <img src="{{ site.baseurl }}/assets/production/images/html_example.png" class="slide-img">
+</div>
+
+<div class="page-piece part-three">
+  <h1>HTML example: output</h1>
+  <img src="{{ site.baseurl }}/assets/production/images/html_output.png" class="slide-img">
+</div>
+
+<div class="page-piece part-three">
+  <h1>CSS</h1>
+
+  <div class="sub-header-container">
+    <h2 class="slide-element medium-header header">Cascading Style Sheets</h2>
+    <h2 class="slide-element medium-header header">Manages the styles HTML elements have</h2>
+  </div>
+</div>
+
+<div class="page-piece part-three">
+  <h1>CSS example: code</h1>
+  <img src="{{ site.baseurl }}/assets/production/images/css_example.png" class="slide-img">
+</div>
+
+<div class="page-piece part-three">
+  <h1>CSS example: output</h1>
+  <img src="{{ site.baseurl }}/assets/production/images/css_output.png" class="slide-img">
+</div>
 
 <!-- Part 4 -->
+<div class="page-piece part-four">
+  <h1>Time to code!</h1>
+  <h2 class="medium-header header">We'll write our first HTML, CSS, and JS.</h2>
+</div>
 
+<div class="page-piece part-four all-code">
+  <code>cd [my code folder]</code>
+</div>
+
+<div class="page-piece part-four all-code">
+  <code>mkdir class-zero</code>
+</div>
+
+<div class="page-piece part-four all-code">
+  <code>cd class-zero/</code>
+</div>
+
+<div class="page-piece part-four all-code">
+  <code>touch index.html</code>
+</div>
+
+<div class="page-piece part-four all-code">
+  <code>touch styles.css</code>
+</div>
+
+<div class="page-piece part-four all-code">
+  <code>touch main.js</code>
+</div>
+
+<div class="page-piece part-four">
+  <h1>Open this folder in your text editor</h1>
+  <h2 class="header medium-header">Atom: <code class="in-heading">atom .</code></h2>
+  <h2 class="header medium-header">Sublime: <code class="in-heading">subl .</code></h2>
+</div>
+
+<div class="page-piece part-four">
+  <img src="{{ site.baseurl }}/assets/production/images/atom_screenshot.png" class="slide-img">
+</div>
+
+<div class="page-piece part-four">
+  <h1>TYPE this into index.html:</h1>
+  <code style="text-align:initial;width:700px;margin:0 auto;color:white;padding:10px;">
+&lt;!DOCTYPE html&gt;<br>
+&lt;html&gt;<br>
+&nbsp;&nbsp;&lt;head&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;link rel="stylesheet" href="styles.css"&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;script type="text/javascript" src="main.js"&gt;&lt;/script&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;My Web Page&lt;/title&gt;<br>
+&nbsp;&nbsp;&lt;/head&gt;<br>
+&nbsp;&nbsp;&lt;body&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;button class="my-special-button"&gt;Turn me red!&lt;/button&gt;<br>
+&nbsp;&nbsp;&lt;/body&gt;<br>
+&lt;/html&gt;
+  </code>
+</div>
+
+<div class="page-piece part-four">
+  <h1>TYPE this into styles.css:</h1>
+  <code style="text-align:initial;width:700px;margin:0 auto;color:white;padding:10px;">
+    .my-special-button {<br>
+    &nbsp;&nbsp;color: yellow;<br>
+    }
+  </code>
+</div>
+
+<div class="page-piece part-four">
+  <h1>TYPE this into main.js:</h1>
+  <code style="width:700px;margin:0 auto;color:white;padding:10px;">
+    function turnMyButtonRed(event){<br>
+    &nbsp;&nbsp;var button = event.target;<br>
+    &nbsp;&nbsp;button.style.background = "red";<br>
+  }<br><br>
+    window.onload = function(){<br>
+    &nbsp;&nbsp;var myButton = document.getElementById("my-special-button");<br>
+    &nbsp;&nbsp;myButton.addEventListener("click", turnMyButtonRed);<br>
+    }
+  </code>
+</div>
+
+<div class="page-piece part-four">
+  <h1>Save all files!</h1>
+</div>
+
+<div class="page-piece part-four">
+  <h1>Open this page in Chrome</h1>
+  <h2 class="medium-header header">In terminal, type:</h2>
+  <code style="text-align:initial;width:700px;margin:0 auto;color:white;padding:10px;">open index.html</code>
+</div>
 
 <!-- End -->
 <div class="page-piece part-five">
