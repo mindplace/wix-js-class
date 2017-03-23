@@ -19,7 +19,6 @@
     padding: 0 60px;
     width: 100%;
     text-align: center;
-    color: #19faef;
 
     display: flex;
     flex-direction: column;
@@ -75,6 +74,13 @@
     }
 
   }
+
+  .part-zero  { color: #19faef; }
+  .part-one   { color: #A3FF92; }
+  .part-two   { color: #FFF279; }
+  .part-three { color: #FFA93A; }
+  .part-four  { color: #E476FF; }
+  .part-five  { color: #DAC9FF; }
 
 
   .footer {
