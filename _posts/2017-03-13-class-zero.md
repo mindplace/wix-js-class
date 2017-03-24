@@ -2,7 +2,7 @@
 layout: post
 title: "class[0]"
 description: "Introduction to current state of JavaScript, why HTML and CSS is necessary, and setting up a development environment."
-status: "Prep work available!"
+status: "Available!"
 permalink: /class-zero
 ---
 
@@ -160,6 +160,6 @@ You've gotten this far? Awesome! If you're hungry for more, check out <a href="h
 
 <h1 class="large-header">Class materials/content</h1>
 
-<a href="{{ site.baseurl }}/class-zero-slides"><button>Class slides</button></a>
+<a class="get-slides-link" href="{{ site.baseurl }}/class-zero-slides"><button>Class slides</button></a>
 
 <br><br>

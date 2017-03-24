@@ -45,6 +45,8 @@ $(document).ready(function(e){
 
     var currentPage = 0;
     $(pages[currentPage]).toggle("slide", { direction: "right" }, 800);
+    $("#current-slide").text(currentPage + 1);
+    $("#total-slides").text(pages.length);
 
     var currentElement = -1;
     var elements;
@@ -66,11 +68,13 @@ $(document).ready(function(e){
           $(pages[currentPage]).hide("slide", { direction: "left" }, 800);
           currentPage += 1
           $(pages[currentPage]).show("slide", { direction: "right" }, 800);
+          $("#current-slide").text(currentPage + 1);
 
         } else if (lastPage && (currentPage > 0)) {
           $(pages[currentPage]).hide("slide", { direction: "right" }, 800);
           currentPage -= 1
           $(pages[currentPage]).show("slide", { direction: "left" }, 800);
+          $("#current-slide").text(currentPage + 1);
         }
 
       }

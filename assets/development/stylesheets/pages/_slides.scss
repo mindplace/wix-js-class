@@ -4,6 +4,18 @@
   background: $grey-color;
   * { box-sizing: border-box; }
 
+  .counter-box {
+    border: 1px solid darkgrey;
+    width: 70px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 7px;
+    margin: 10px;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
   main {
     margin-top: 100px;
     padding: 0;

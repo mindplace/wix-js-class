@@ -29,6 +29,20 @@
   }
 }
 
+.get-slides-link {
+  display: block;
+  margin: auto;
+  text-align: center;
+
+  button {
+    height: 50px;
+    width: 300px;
+    margin: auto;
+    font-size: 15px;
+    font-weight: 100;
+  }
+}
+
 .my-css-class {
   padding: 20px;
   margin-bottom: 20px;
