@@ -56,7 +56,7 @@ To install on a Mac:
 
 1. Open your Terminal. (You can find it under Applications/Utilities/Terminal, or you can press  command + space, type 'terminal', and press Enter.)
 
-    <img src="{{ site.baseurl }}/assets/production/images/terminal.jpg" style="width:500px;max-width:100%;">
+    <img src="{{ site.baseurl }}/assets/production/images/terminal.jpg">
 
     Is this the first time you've seen the <a href="http://www.macworld.co.uk/feature/mac-software/get-more-out-of-os-x-terminal-3608274/" target="blank">Terminal</a>? You'll be using probably for every class, so it's a good idea to get a handle on what it is. Get started <a target="blank" href="http://stackforyourself.com/comp-sci/2016/10/01/command-line/">here</a>.
 

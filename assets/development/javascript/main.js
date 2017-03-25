@@ -111,4 +111,11 @@ $(document).ready(function(e){
     });
   }
 
+  // take away border on empty td
+  $.map($("td"), function(td) {
+    if (/^\s+$/.test($(td).text())) {
+      $(td).css("border", "none");
+    }
+  });
+
 });
