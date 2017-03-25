@@ -16,7 +16,7 @@ permalink: /
       {% assign posts = site.posts | reverse %}
       {% for post in posts %}
 
-        <a href="{{ post.url }}"><div class="class-box">
+        <a href="{{ site.baseurl }}{{ post.url }}"><div class="class-box">
           <h3 class="header medium-header">{{ post.title }}
             {% if post.complete == true %}<span class="complete">complete</span>{% endif %}
             {% if post.prep_work == true %}<span class="prep">Prep work available</span>{% endif %}
