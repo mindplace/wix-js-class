@@ -8,16 +8,13 @@ layout: default
   <article class="post">
     <div class="post-page-header">
       <h1 class="standard-large-header">{{ page.title }}</h1>
+      
+      {% if post.complete == true %}<span class="complete">class completed</span>{% endif %}
+      {% if post.prep_work == true %}<span class="prep">Prep work available</span>{% endif %}
+      {% if post.slides == true %}<span class="slides">Slides available</span>{% endif %}
+      {% if post.is_next == true %}<span class="next">coming up next!</span>{% endif %}
 
-      <div class="post-description">
-        <span class="post-status">Description:</span>
-        <span class="content">{{ post.description }}</span>
-      </div>
-
-      <div class="post-description">
-        <span class="post-status">Status:</span>
-        <span class="content">{{ post.status }}</span>
-      </div>
+      <div class="post-description">{{ post.description }}</div>
     </div>
 
     <div>

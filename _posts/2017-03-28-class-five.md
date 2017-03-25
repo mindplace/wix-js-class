@@ -2,7 +2,6 @@
 layout: post
 title: "class[5]"
 description: "Introduction to jQuery, introduction to library APIs."
-status: "Content coming soon."
 permalink: /class-five
 complete: false
 is_next: false
