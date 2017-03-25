@@ -28,3 +28,7 @@ kramdown:
 
 # Adding static pages through `_static/` folder
 include: ['_static', '_slides']
+
+
+# posts future-dated are visible
+future: true

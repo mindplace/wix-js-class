@@ -2,8 +2,9 @@
 layout: post
 title: "class[0]"
 description: "Introduction to current state of JavaScript, why HTML and CSS is necessary, and setting up a development environment."
-status: "Available!"
+status: "Prep work and slides available."
 permalink: /class-zero
+complete: true
 ---
 
 <h1 class="large-header">Prep work</h1>

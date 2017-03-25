@@ -12,106 +12,23 @@ permalink: /
     </div>
 
     <div class="index-section">
-      <h2 class="header medium-header">Each class has its own page!</h2>
-      <p>On each page, you'll find the class materials (slides, code, etc), additional resources, and homework.</p>
 
-      <div class="class-box">
-        <header>
-          <a href="{{ site.baseurl }}{% post_url 2017-03-13-class-zero %}"><h3 class="header medium-header">class[0]</h3></a>
-          <div>
-            <span class="status">Status:</span>
-            <span class="status-content">Class slides available!</span>
-          </div>
-        </header>
+      {% assign posts = site.posts | reverse %}
+      {% for post in posts %}
 
-        <p>Current state of JavaScript, contextualizing this course; Setting up your development environment; HTML and CSS, and why you need to know them.</p>
-      </div>
+        <a href="{{ post.url }}"><div class="class-box">
+          <h3 class="header medium-header">{{ post.title }}
+            {% if post.complete == true %}<span class="complete">complete</span>{% endif %}
+            {% if post.is_next == true %}<span class="next">coming up next!</span>{% endif %}
+          </h3>
 
-      <div class="class-box">
-        <header>
-          <a href="{{ site.baseurl }}{% post_url 2017-03-14-class-one %}"><h3 class="header medium-header">class[1]</h3></a>
-          <div>
-            <span class="status">Status:</span>
-            <span class="status-content">Prep work available!</span>
-          </div>
-        </header>
+          <p><span class="status">Status:</span> {{ post.status }}</span></p>
 
-        <h4 class="header small-header">What are we tackling?</h4>
-        <ul>
-          <li>Understanding types</li>
-          <li>Understanding operators</li>
-          <li>Declaring variables and assigning values</li>
-          <li>Understanding arrays and objects</li>
-        </ul>
-      </div>
+          <p>{{ post.description }}</p>
+        </div></a>
 
-      <div class="class-box">
-        <header>
-          <a href="#"><h3 class="header medium-header">class[2]</h3></a>
-          <div>
-            <span class="status">Status:</span>
-            <span class="status-content">Content coming soon.</span>
-          </div>
-        </header>
+      {% endfor %}
 
-        <h4 class="header small-header">What are we tackling?</h4>
-        <ul class="undetermined-content">
-          <li><code>if</code> and <code>else if</code> control flow</li>
-          <li><code>for</code> and <code>while</code> loops</li>
-          <li>Functions</li>
-          <li>Printing vs Returning</li>
-          <li>Scope and <code>this</code></li>
-        </ul>
-      </div>
-
-      <div class="class-box">
-        <header>
-          <a href="#"><h3 class="header medium-header">class[3]</h3></a>
-          <div>
-            <span class="status">Status:</span>
-            <span class="status-content">Content coming soon.</span>
-          </div>
-        </header>
-
-        <h4 class="header small-header">What are we tackling?</h4>
-        <ul class="undetermined-content">
-          <li>Built-in methods</li>
-          <li>Pulling in external libraries</li>
-          <li>Simple algorithms</li>
-        </ul>
-      </div>
-
-      <div class="class-box">
-        <header>
-          <a href="#"><h3 class="header medium-header">class[4]</h3></a>
-          <div>
-            <span class="status">Status:</span>
-            <span class="status-content">Content coming soon.</span>
-          </div>
-        </header>
-
-        <h4 class="header small-header">What are we tackling?</h4>
-        <ul class="undetermined-content">
-          <li>Introduction to the DOM</li>
-          <li>Using DevTools</li>
-          <li>Introduction to selecting and altering HTML elements</li>
-        </ul>
-      </div>
-
-      <div class="class-box">
-        <header>
-          <a href="#"><h3 class="header medium-header">class[5]</h3></a>
-          <div>
-            <span class="status">Status:</span>
-            <span class="status-content">Content coming soon.</span>
-          </div>
-        </header>
-
-        <h4 class="header small-header">What are we tackling?</h4>
-        <ul class="undetermined-content">
-          <li>Introduction to jQuery</li>
-        </ul>
-      </div>
     </div>
   </div>
 </div>
