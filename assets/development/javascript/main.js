@@ -22,13 +22,6 @@ $(document).ready(function(e){
 		}
 	});
 
-  // Mobile menu
-  $(window).on("resize", function(e){
-    if ($(window).width() > 800) {
-      $(".menu-items").show();
-    }
-  })
-
   // Search page
   if ($("#search-results").length) {
     var results = $("#search-results").children();

@@ -6,6 +6,7 @@
    margin-bottom: 40px;
 
    p {
+     width: 60%;
      margin-bottom: 0;
      font-size: 1.3rem; }
 
@@ -30,15 +31,27 @@
        &:hover, &:active {
          background-color: #eee; }
 
-       .complete, .next {
+       .complete, .next, .slides, .prep {
          display: block;
          position: absolute;
-         font-size: 10px;
-         top: 10px;
-         right: 10px; }
+         right: 10px;
+         font-size: 10px; }
 
-         .complete { color: green; }
-         .next { color: orange; }
+         .complete {
+           color: green;
+           top: 10px; }
+
+         .next {
+           color: orange;
+           top: 10px; }
+
+         .slides {
+           color: lightpink;
+           top: 40px; }
+
+         .prep {
+           color: lightblue;
+           top: 25px; }
      }
    }
  }

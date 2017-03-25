@@ -2,7 +2,8 @@
 layout: post
 title: "class[0]"
 description: "Introduction to current state of JavaScript, why HTML and CSS is necessary, and setting up a development environment."
-status: "Prep work and slides available."
+prep_work: true
+slides: true
 permalink: /class-zero
 complete: true
 ---

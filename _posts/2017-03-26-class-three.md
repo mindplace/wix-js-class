@@ -6,6 +6,8 @@ status: "Content coming soon."
 permalink: /class-three
 complete: false
 is_next: false
+prep_work: false
+slides: false
 ---
 
 <h2 class="header large-header">Prep work</h2>

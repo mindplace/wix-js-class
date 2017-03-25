@@ -90,6 +90,13 @@
       .inner-container {
         width: 80%; }
     }
+
+    @media screen and (min-width: 1200px) {
+      left: -16%;
+
+      .inner-container {
+        width: 75%; }
+    }
   }
 
   .mobile-menu-box {
