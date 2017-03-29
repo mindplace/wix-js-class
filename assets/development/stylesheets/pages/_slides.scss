@@ -36,6 +36,11 @@
     flex-direction: column;
     justify-content: center;
 
+    &.flex-starts-high {
+      justify-content: initial;
+      .sub-header-container { margin-top: 30px; }
+    }
+
     @media screen and (max-width: $on-palm - 1) {
       padding-bottom: 60px;
     }
@@ -46,11 +51,16 @@
       height: 60vh;
     }
 
-    .sub-header-container {
-      height: 5vh;
-    }
+    .sub-header-container { height: 5vh; }
 
     a { display: inline-block; }
+
+    .big-button {
+      height: initial;
+      padding:30px;
+      align-items: initial;
+      .header { margin: 0; }
+    }
 
     img {
       width: 600px;
