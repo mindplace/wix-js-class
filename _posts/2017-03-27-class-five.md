@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "class[5]"
-description: "Introduction to jQuery, introduction to library APIs."
+description: "Built-in methods and coding challenges."
 permalink: /class-five
 complete: false
 is_next: false
@@ -11,4 +11,4 @@ slides: false
 
 <h2 class="header large-header">Prep work</h2>
 
-Coming soon!
+*Coming soon!*
