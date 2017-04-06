@@ -22,18 +22,19 @@ Class[2]
 - Objects
 
 Class[3]
-- Control flow with `if`, `else`
-- Loops with `while`, `for`
-- Error messages
+- Control flow with `if`, `else`: bringYourUmbrella()
+- Loops with `while`, `for`: magicNumberGame(), shoutingMatchGame()
 
 Class[4]
 - Functions
-- Simple algorithms / projects
+- Error messages
 - Working from local environment
+- rockPaperScissorsGame
 
 Class[5]
 - Built-in methods
-- Simple algorithms / projects
+- normalizeNumber()
+- callbacks and higher-order functions
 
 Class[6]
 - Introduction to the DOM (Document Object Model)
@@ -43,3 +44,9 @@ Class[6]
 Class[7]
 - Intro to jQuery
 - Intro to library APIs
+- rockPaperScissorsGame() part 2
+
+Class[8]
+- Most common jQuery events and methods
+- turn input value into money 
+- explanation of ES6 modules
