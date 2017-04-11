@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "class[4]"
-description: "Functions, coding challenges, and working from your local environment."
+description: "Functions, coding challenges, error messages, and working from your local environment."
 permalink: /class-four
 prep_work: false
 slides: false

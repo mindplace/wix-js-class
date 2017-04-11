@@ -22,14 +22,14 @@ Class[2]
 - Objects
 
 Class[3]
-- Control flow with `if`, `else`: bringYourUmbrella()
+- Control flow with `if`, `else`: bringYourUmbrella(),
 - Loops with `while`, `for`: magicNumberGame(), shoutingMatchGame()
 
 Class[4]
 - Functions
 - Error messages
 - Working from local environment
-- rockPaperScissorsGame
+- rockPaperScissorsGame()
 
 Class[5]
 - Built-in methods
@@ -48,5 +48,8 @@ Class[7]
 
 Class[8]
 - Most common jQuery events and methods
-- turn input value into money 
+- turn input value into money
 - explanation of ES6 modules
+
+
+https://medium.freecodecamp.com/my-giant-javascript-basics-course-is-now-live-on-youtube-and-its-100-free-9020a21bbc27
