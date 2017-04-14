@@ -4,7 +4,7 @@ title: "class[3]"
 description: "Control flow with <code>if</code> and <code>else</code>, loops with <code>while</code> and <code>for</code>."
 permalink: /class-three
 prep_work: true
-slides: false
+slides: true
 is_next: true
 complete: false
 ---
@@ -323,7 +323,7 @@ console.log("Fruit salad!")
 
 3. Make an array holding some collection. Using a `for` loop, loop over this array, picking up each item using a counter, and do something with the item, like printing it out in a sentence.
 
-4. Make an object holding several keys and values. Using a `for` loop, loop over this object and print out its keys and its values in sentences. 
+4. Make an object holding several keys and values. Using a `for` loop, loop over this object and print out its keys and its values in sentences.
 
 
 
@@ -334,3 +334,10 @@ console.log("Fruit salad!")
 * <a href="http://www.w3schools.com/js/js_loop_for.asp" target="blank">Understanding `for` loops</a>
 * <a href="http://eloquentjavascript.net/02_program_structure.html" target="blank">Eloquent JavaScript, chapter 2: Program structure</a>
 * <a href="http://www.dofactory.com/tutorial/javascript-loops" target="blank">DoFactory JavaScript loops</a>
+
+
+---
+
+<h1 class="large-header">Class materials/content</h1>
+
+<a class="get-slides-link" href="{{ site.baseurl }}/class-three-slides"><button>Class slides</button></a>

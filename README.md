@@ -23,7 +23,7 @@ Class[2]
 
 Class[3]
 - Control flow with `if`, `else`: bringYourUmbrella(),
-- Loops with `while`, `for`: magicNumberGame(), shoutingMatchGame()
+- Loops with `while`, `for`: magicNumberGame()
 
 Class[4]
 - Functions
