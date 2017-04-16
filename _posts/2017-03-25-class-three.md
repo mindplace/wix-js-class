@@ -5,13 +5,11 @@ description: "Control flow with <code>if</code> and <code>else</code>, loops wit
 permalink: /class-three
 prep_work: true
 slides: true
-is_next: true
-complete: false
+is_next: false
+complete: true
 ---
 
 <h2 class="header large-header">Prep work</h2>
-
-<hr>
 
 <h2 class="header medium-header">Control flow</h2>
 The concept of `control flow` is being able to run different bits of code depending on whether some condition is met or not. The program will evaluate whether some condition is true, and if so, will run the appropriate piece of code, based on what you tell it to do.

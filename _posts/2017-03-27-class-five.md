@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "class[5]"
-description: "Built-in methods and coding challenges."
+description: "Introduction to the DOM (Document Object Model), introduction to selecting and altering HTML elements, and using DevTools."
 permalink: /class-five
 complete: false
 is_next: false

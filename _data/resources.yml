@@ -1,0 +1,54 @@
+basics-course:
+  title: JavaScript Basics course
+  description: Released by FreeCodeCamp, a 100-hr YouTube course on JavaScript basics.
+  url: https://medium.freecodecamp.com/my-giant-javascript-basics-course-is-now-live-on-youtube-and-its-100-free-9020a21bbc27
+
+reference:
+  title: Mozilla Developer Network's JavaScript documentation
+  description: Best documentation for JavaScript covering everything related to JavaScript.
+  url: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference
+
+mdn-basics:
+  title: Mozilla Firefox's introduction to JavaScript data types and data structures
+  description: Best documentation for JavaScript covering data types like strings and booleans, and data structures like arrays and objects.
+  url: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures
+
+smashing-mag:
+  title: "The Mystery Of The jQuery Object: A Basic Introduction"
+  description: Smashing Magazine's article on making jQuery objects more understandable.
+  url: https://www.smashingmagazine.com/2014/05/mystery-jquery-object-syntax-basic-introduction/
+
+jquery-docs:
+  title: jQuery Documentation
+  description: Covers all the things jQuery can do!
+  url: http://api.jquery.com/
+
+eloquent-javascript:
+  title: Eloquent JavaScript book
+  description: A favorite and very highly rated, 100% free online, book on starting with JavaScript.
+  url: http://eloquentjavascript.net/
+
+you-dont-know-js:
+  title: You Don't Know JavaScript book
+  description: The next step after Eloquent JavaScript, a wonderful and 100% free online book on gaining a deeper understanding of JavaScript.
+  url: https://github.com/getify/You-Dont-Know-JS
+
+cheatsheet:
+  title: OverAPI's JavaScript cheatsheet
+  description: A great, simple cheatsheet to remember JavaScript terms.
+  url: http://overapi.com/javascript
+
+duckett-book:
+  title: JavaScript and jQuery book
+  description: Written by Jon Duckett. A favorite for beginner JavaScript students.
+  url: https://www.amazon.com/JavaScript-JQuery-Interactive-Front-End-Development/dp/1118531647
+
+ninja-book:
+  title: Secrets of the JavaScript Ninja book
+  description: Written by John Resig. A very highly rated JavaScript book.
+  url: https://www.amazon.com/Secrets-JavaScript-Ninja-John-Resig/dp/1617292850/ref=sr_1_1?s=books&ie=UTF8&qid=1492202121&sr=1-1&keywords=javascript+ninja
+
+frontend-tooling-state:
+  title: The State of Front-end Tooling in 2016
+  description: There's so many things to know that have to do with JavaScript, so here's a quick intro.
+  url: https://ashleynolan.co.uk/blog/frontend-tooling-survey-2016-results

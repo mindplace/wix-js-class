@@ -11,24 +11,35 @@ permalink: /
       <h1>Introduction to JavaScript</h1>
     </div>
 
-    <div class="index-section">
+    <div class="main-area">
+      <div class="index-section" id="class-boxes">
 
-      {% assign posts = site.posts | reverse %}
-      {% for post in posts %}
+        {% assign posts = site.posts | reverse %}
+        {% for post in posts %}
 
-        <a href="{{ site.baseurl }}{{ post.url }}"><div class="class-box">
-          <h3 class="header medium-header">{{ post.title }}
-            {% if post.complete == true %}<span class="complete">class completed</span>{% endif %}
-            {% if post.prep_work == true %}<span class="prep">Prep work available</span>{% endif %}
-            {% if post.slides == true %}<span class="slides">Slides available</span>{% endif %}
-            {% if post.is_next == true %}<span class="next">coming up next!</span>{% endif %}
-          </h3>
+          <a href="{{ site.baseurl }}{{ post.url }}"><div class="class-box">
+            <h3 class="header medium-header">{{ post.title }}
+              {% if post.complete == true %}<span class="complete">class completed</span>{% endif %}
+              {% if post.prep_work == true %}<span class="prep">Prep work available</span>{% endif %}
+              {% if post.slides == true %}<span class="slides">Slides available</span>{% endif %}
+              {% if post.is_next == true %}<span class="next">coming up next!</span>{% endif %}
+            </h3>
 
-          <p>{{ post.description }}</p>
-        </div></a>
+            <p>{{ post.description }}</p>
+          </div></a>
 
-      {% endfor %}
+        {% endfor %}
+      </div>
 
+      <div class="index-section" id="resources">
+        {% for resource_slug in site.data.resources %}
+          {% assign resource = resource_slug[1] %}
+          <div class="resource-element">
+            <a href="{{ resource.url }}" target="blank">{{ resource.title }}</a>
+            <p>{{ resource.description }}</p>
+          </div>
+        {% endfor %}
+      </div>
     </div>
   </div>
 </div>

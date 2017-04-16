@@ -27,29 +27,21 @@ Class[3]
 
 Class[4]
 - Functions
-- Error messages
-- Working from local environment
+- built-in methods
 - rockPaperScissorsGame()
 
 Class[5]
-- Built-in methods
+- Introduction to the DOM (Document Object Model)
+- Introduction to selecting and altering HTML elements
+- Using DevTools
 - normalizeNumber()
-- callbacks and higher-order functions
 
 Class[6]
-- Introduction to the DOM (Document Object Model)
-- Using DevTools
-- Introduction to selecting and altering HTML elements
-
-Class[7]
 - Intro to jQuery
 - Intro to library APIs
 - rockPaperScissorsGame() part 2
 
-Class[8]
+Class[7]
 - Most common jQuery events and methods
 - turn input value into money
 - explanation of ES6 modules
-
-
-https://medium.freecodecamp.com/my-giant-javascript-basics-course-is-now-live-on-youtube-and-its-100-free-9020a21bbc27
