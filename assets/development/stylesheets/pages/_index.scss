@@ -41,19 +41,37 @@
   justify-content: space-between;
 
   #class-boxes {
+    box-sizing: border-box;
     @media screen and (max-width: $on-palm) {
       width: 100%;
     }
-    max-width: 50%;
+    max-width: 57%;
   }
 
   #resources {
-
-    @media screen and (min-width: $on-palm) {
+    box-sizing: border-box;
+    @media screen and (max-width: $on-palm) {
       width: 100%;
+      margin: 0;
     }
 
-    max-width: 40%;
+    width: 40%;
+    margin-left: 20px;
+
+    .resource-element {
+      border: 1px solid lightblue;
+      border-radius: 5px;
+      padding: 10px;
+      margin-bottom: 10px;
+
+      a { color: #33C3F0; }
+
+      p {
+        width: 100%;
+        font-size: 11px;
+        padding-top: 10px;
+      }
+    }
   }
 }
 
