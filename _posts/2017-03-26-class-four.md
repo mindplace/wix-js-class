@@ -4,7 +4,7 @@ title: "class[4]"
 description: "Functions, built-in methods, and lots of practice!"
 permalink: /class-four
 prep_work: true
-slides: false
+slides: true
 complete: false
 is_next: true
 ---
@@ -325,5 +325,4 @@ anotherString.toLowerCase()
 
 <h1 class="large-header">Class materials/content</h1>
 
-*Coming soon!*
-<!-- <a class="get-slides-link" href="{{ site.baseurl }}/class-three-slides"><button>Class slides</button></a> -->
+<a class="get-slides-link" href="{{ site.baseurl }}/class-four-slides"><button>Class slides</button></a>
