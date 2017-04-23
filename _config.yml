@@ -27,7 +27,7 @@ kramdown:
     preview: true
 
 # Adding static pages through `_static/` folder
-include: ['_static', '_slides']
+include: ['_static', '_slides', 'materials']
 
 
 # posts future-dated are visible

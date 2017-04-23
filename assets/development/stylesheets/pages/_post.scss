@@ -31,12 +31,12 @@
       }
 
       img {
-        width: 500px;
         max-width: 100%;
+        object-fit: contain;
 
         &.full-width-image {
           width: 100%;
-          margin: 20px 0; 
+          margin: 20px 0;
         }
       }
 
@@ -44,6 +44,15 @@
         text-align: center;
         margin: 4.0rem 0;
         .video { margin: auto; }
+      }
+
+      .button-wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-bottom: 60px;
       }
 
       .get-slides-link {
@@ -57,7 +66,22 @@
           margin: auto;
           font-size: 15px;
           font-weight: 100;
+          margin-bottom: 10px;
+
+          &:hover { color: black; }
         }
+      }
+
+      .green-color button {
+        color: white;
+        background-color: lightgreen;
+        font-weight: 600;
+      }
+
+      .blue-color button {
+        color: white;
+        background-color: lightblue;
+        font-weight: 600;
       }
 
       .my-css-class {
@@ -116,4 +140,13 @@
 
         }
 
+}
+
+.flex-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: flex-end;
+
+  > * { width: 48%; }
 }

@@ -8,8 +8,12 @@ slides: true
 complete: false
 is_next: true
 ---
+<h1 class="large-header">Class Materials and Content</h1>
 
-<h2 class="header large-header">Prep work</h2>
+<a class="get-slides-link" href="{{ site.baseurl }}/class-four-slides"><button>Class slides</button></a>
+
+
+<h2 class="header large-header">Pre-class Prep work</h2>
 
 <h2 class="header medium-header">Functions</h2>
 
@@ -319,10 +323,3 @@ anotherString.toLowerCase()
 <a href="http://overapi.com/javascript" target="blank">
   <img class="full-width-image" src="{{ site.baseurl }}/assets/production/images/js_cheatsheet.jpg">
 </a>
-
-
----
-
-<h1 class="large-header">Class materials/content</h1>
-
-<a class="get-slides-link" href="{{ site.baseurl }}/class-four-slides"><button>Class slides</button></a>

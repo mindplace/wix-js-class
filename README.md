@@ -44,4 +44,4 @@ Class[6]
 Class[7]
 - Most common jQuery events and methods
 - turn input value into money
-- explanation of ES6 modules
+- explanation of ES6 modules http://exploringjs.com/es6/ch_modules.html

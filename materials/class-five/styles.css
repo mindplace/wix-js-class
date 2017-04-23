@@ -1,0 +1,41 @@
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background-image: url("money.jpg");
+}
+
+main {
+  font-family: 'Handlee', cursive;
+  margin: auto;
+  padding: 10%;
+  text-align: center;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.set {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.number-input {
+  width: 250px;
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.result-as-money {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+h1, h2 {
+  background-color: rgba(255, 255, 255, 0.8);
+  margin-top: 0;
+  padding: 20px;
+}

@@ -9,6 +9,12 @@ is_next: false
 complete: true
 ---
 
+<h1 class="large-header">Class materials/content</h1>
+
+<a class="get-slides-link" href="{{ site.baseurl }}/class-three-slides"><button>Class slides</button></a>
+
+<hr><br>
+
 <h2 class="header large-header">Prep work</h2>
 
 <h2 class="header medium-header">Control flow</h2>
@@ -335,7 +341,3 @@ console.log("Fruit salad!")
 
 
 ---
-
-<h1 class="large-header">Class materials/content</h1>
-
-<a class="get-slides-link" href="{{ site.baseurl }}/class-three-slides"><button>Class slides</button></a>

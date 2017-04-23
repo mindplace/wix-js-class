@@ -7,6 +7,11 @@ slides: true
 permalink: /class-zero
 complete: true
 ---
+<h1 class="large-header">Class materials/content</h1>
+
+<a class="get-slides-link" href="{{ site.baseurl }}/class-zero-slides"><button>Class slides</button></a>
+
+<hr><br>
 
 <h1 class="large-header">Prep work</h1>
 
@@ -157,11 +162,3 @@ Get started learning more about CSS <a href="https://www.w3schools.com/css/css_i
 - Take <a href="https://www.codecademy.com" target="blank">Codecademy's HTML and CSS</a> courses.
 
 You've gotten this far? Awesome! If you're hungry for more, check out <a href="http://learn.shayhowe.com/html-css/" target="blank">Learn to Code HTML & CSS</a>.
-
-<br><br>
-
-<h1 class="large-header">Class materials/content</h1>
-
-<a class="get-slides-link" href="{{ site.baseurl }}/class-zero-slides"><button>Class slides</button></a>
-
-<br><br>
