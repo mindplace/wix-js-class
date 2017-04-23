@@ -5,8 +5,8 @@ description: "Functions, built-in methods, and lots of practice!"
 permalink: /class-four
 prep_work: true
 slides: true
-complete: false
-is_next: true
+complete: true
+is_next: false
 ---
 <h1 class="large-header">Class Materials and Content</h1>
 
