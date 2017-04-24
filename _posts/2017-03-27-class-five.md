@@ -72,6 +72,8 @@ In practice, what this means is one of two things:
 
 For the purposes of this class, we won't be talking about the 2nd use case (even though it's becoming hugely popular and altering the way front-end programming is happening).
 
+<br>
+
 <h3 class="header small-header">What does 'manipulating DOM elements' mean?</h3>
 
 The initial DOM is whatever is loaded when the page is loaded and its main root node is called `document`.
@@ -113,7 +115,7 @@ var paragraphs = document.querySelectorAll('p')
 
 ```
 
-`paragraph` is an array where each element one of the paragraphs. Now, make all the paragraphs change their text color to red:
+`paragraphs` is now an array, where each element is one of the paragraphs on the page. Now, make all the paragraphs change their text color to red:
 
 ```javascript
 // Manipulating
