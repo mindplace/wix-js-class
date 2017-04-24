@@ -34,14 +34,14 @@ Class[5]
 - Introduction to the DOM (Document Object Model)
 - Introduction to selecting and altering HTML elements
 - Using DevTools
-- normalizeNumber()
+- numberToMoney()
 
 Class[6]
 - Intro to jQuery
-- Intro to library APIs
-- rockPaperScissorsGame() part 2
+- rockPaperScissorsGame() part 2: interfaces
 
 Class[7]
-- Most common jQuery events and methods
-- turn input value into money
-- explanation of ES6 modules http://exploringjs.com/es6/ch_modules.html
+- Explanation of ES6 modules http://exploringjs.com/es6/ch_modules.html
+- Intro to APIs: libraries vs web-based
+- Ajax requests
+- rhymingWords()
