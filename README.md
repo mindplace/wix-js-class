@@ -2,8 +2,6 @@
 
 Live site: [estherleytush.com/wix-js-class](http://estherleytush.com/wix-js-class)
 
-
-
 **Schedule**
 
 Class[0]
