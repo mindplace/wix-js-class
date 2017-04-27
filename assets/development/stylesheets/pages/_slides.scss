@@ -55,6 +55,11 @@
 
     a { display: inline-block; }
 
+    #download-code-button {
+      margin: 20px 0 40px;
+      button { width: auto; }
+    }
+
     .big-button {
       height: initial;
       padding:30px;

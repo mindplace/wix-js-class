@@ -11,7 +11,7 @@ slides: false
 <h1 class="large-header">Class Materials and Content</h1>
 
 <div class="button-wrapper">
-  <a class="get-slides-link" href="#"><button>Class slides</button></a>
+  <a class="get-slides-link" href="{{ site.baseurl }}/class-five-slides"><button>Class slides</button></a>
 
   <a class="get-slides-link green-color" href="{{ site.baseurl }}/materials/class-five.zip"><button>Get the Code</button></a>
 </div>
@@ -22,17 +22,11 @@ slides: false
 
 An essential aspect of front-end development is using in-browser developer tools. It is nearly impossible to understand why something you are building is not working without being able to look at the code in the browser and understand where the issue or bug is happening.
 
-Most browsers have their own, but the industry standard are the <a href="" target="blank">Chrome DevTools</a>.
+Most browsers have their own, but the industry standard are the <a href="https://developer.chrome.com/devtools" target="blank">Chrome DevTools</a>.
 
 To open the DevTools, open any website in Chrome, right-click, and select 'Inspect'.
 
 <img src="{{ site.baseurl }}/assets/production/images/chrome-devtools.jpg">
-
-<br>
-
-<h3 class="small-header header">Resources</h3>
-
-* Official <a href="https://developer.chrome.com/devtools" target="blank">Chrome DevTools Overview</a>
 
 <hr><br>
 
