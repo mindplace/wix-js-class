@@ -18,7 +18,7 @@ main {
 
 .choice-boxes {
   display: flex;
-    flex-direction: column;
+  flex-direction: column;
 }
 
 .box {
@@ -27,6 +27,8 @@ main {
   border-radius: 5px;
   margin: 10px;
   cursor: pointer;
+  background: lightgrey;
+  padding: 1em 0; 
 }
 
 .results {
@@ -37,10 +39,6 @@ main {
   margin: 0;
   color: green;
   display: none;
-}
-
-#human .box:hover {
-  background-color: white;
 }
 
 #computer .box:hover {
