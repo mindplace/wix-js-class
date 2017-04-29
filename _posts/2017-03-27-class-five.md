@@ -3,10 +3,10 @@ layout: post
 title: "class[5]"
 description: "Introduction to the DOM, selecting and altering HTML elements, and using DevTools."
 permalink: /class-five
-complete: false
-is_next: true
+complete: true
+is_next: false
 prep_work: true
-slides: false
+slides: true
 ---
 <h1 class="large-header">Class Materials and Content</h1>
 
