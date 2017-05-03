@@ -20,67 +20,50 @@ permalink: /class-six-slides
   </div>
 </div>
 
-<!-- Part 1, the DOM -->
-<div class="page-piece part-one flex-starts-high">
-  <h1>The Document Object Model (DOM)</h1>
-
-  <div class="sub-header-container">
-    <h2 class="slide-element medium-header header">It's how the web pages we view are structured.</h2>
-    <h2 class="slide-element medium-header header">The DOM is a tree of nodes, where each HTML element is a node.</h2>
-    <h2 class="slide-element medium-header header">A node is connected to its parent node (the node which it is inside of),</h2>
-    <h2 class="slide-element medium-header header">and is aware of sibling nodes (nodes which have the same parent).</h2>
-  </div>
+<!-- jQuery -->
+<div class="page-piece part-one">
+  <img src="{{ site.baseurl }}/assets/production/images/jquery-use-that.gif" style="height:100%;width:initial;">
 </div>
 
 <div class="page-piece part-one">
-  <div class="flex-wrapper">
-    <img src="{{ site.baseurl }}/assets/production/images/dom.gif">
-    <img src="{{ site.baseurl }}/assets/production/images/dom-example.jpg">
-  </div>
+  <h1>"jQuery is used by 96.6% of all<br>the websites whose JavaScript library<br>we know. This is 72.3% of all websites."</h1>
+
+  <h2 class="medium-header header"><a href="https://w3techs.com/technologies/details/js-jquery/all/all" target="blank">W3Techs</a></h2>
 </div>
 
 <div class="page-piece part-one flex-starts-high">
-  <h1>Why does the DOM matter?</h1>
+  <h2>jQuery is a lightweight library of JavaScript code that makes common things like selecting and altering elements easier.</h2>
 
   <div class="sub-header-container">
-    <h2 class="slide-element medium-header header">When you target elements, you are actually targeting parts of the DOM.</h2>
-    <h2 class="slide-element medium-header header">We even explicitly use the term <code>document</code>.</h2>
-    <h2 class="slide-element medium-header header">Lots of times, we target <code>document</code> directly.</h2>
+    <h2 class="slide-element medium-header header">A library is a bunch of code someone wrote and packaged up, that you can use.</h2>
+    <h2 class="slide-element medium-header header">You include this library in your project and get to use jQuery functions and methods.</h2>
   </div>
 </div>
 
-<!-- Part 2, DevTools -->
-<div class="page-piece part-two">
-  <h1>DevTools!</h1>
-  <h2 class="medium-header header">Open Chrome!</h2>
-</div>
+<!-- jQuery objects -->
+<div class="page-piece part-two flex-starts-high">
+  <h1>The JavaScript element vs the jQuery object</h1>
 
-<!-- Part 3, Selecting and altering elements -->
-
-<div class="page-piece part-three flex-starts-high">
-  <h1>Selecting and altering elements</h1>
-
-  <div class="sub-header-container">
-    <h2 class="slide-element medium-header header">HTML and CSS define the environment within which JS makes changes.</h2>
-    <h2 class="slide-element medium-header header">To select / target an HTML element: use its <code>type</code>, <code>class</code>, or <code>ID</code></h2>
+  <div class="flex-wrapper">
+    <img src="{{ site.baseurl }}/assets/production/images/javascript-object.jpg">
+    <img src="{{ site.baseurl }}/assets/production/images/jquery-object.jpg">
   </div>
 </div>
 
+<!-- jQuery listeners -->
 <div class="page-piece part-three flex-starts-high">
-  <h1>Targeting an element with JavaScript</h1>
+  <h1>JavaScript listener vs jQuery listener</h1>
 
-  <div class="sub-header-container">
-    <h2 class="slide-element medium-header header">Types, classes, and IDs are written just as they are in CSS</h2>
-    <h2 class="slide-element medium-header header">Type example: <code>div</code></h2>
-    <h2 class="slide-element medium-header header">Class example: <code>.my-special-class</code></h2>
-    <h2 class="slide-element medium-header header">ID example: <code>#my-special-id</code></h2>
+  <div class="flex-wrapper">
+    <img src="{{ site.baseurl }}/assets/production/images/javascript-listener.jpg">
+    <img src="{{ site.baseurl }}/assets/production/images/jquery-listener.jpg">
   </div>
 </div>
 
 <div class="page-piece part-three flex-starts-high">
   <h1>Practice time!</h1>
 
-  <a id="download-code-button" href="{{ site.baseurl }}/materials/class-five.zip" target="blank">
+  <a id="download-code-button" href="{{ site.baseurl }}/materials/class-six.zip" target="blank">
     <button class="big-button">
       <h2 class="header medium-header part-one">Download the code</h2>
     </button>
@@ -90,40 +73,16 @@ permalink: /class-six-slides
   <h2 class="medium-header header">Once you're in the folder, <code>atom .</code> to open the folder in Atom.</h2>
 </div>
 
-<!-- Recap -->
-<div class="page-piece part-four">
-  <h1>Review</h1>
-</div>
-
-<div class="page-piece part-four flex-starts-high">
-  <div class="sub-header-container">
-    <h2 class="medium-header header">How do you write a function?</h2>
-    <h2 class="slide-element medium-header header">What's a callback?</h2>
-    <h2 class="slide-element medium-header header">How do you pass an argument to a function?</h2>
-    <h2 class="slide-element medium-header header">How do you pass a function as an argument, to another function?</h2>
-  </div>
-</div>
-
-<div class="page-piece part-four flex-starts-high">
-  <div class="sub-header-container">
-    <h2 class="medium-header header">How do you target an element knowing its ID?</h2>
-    <h2 class="slide-element medium-header header">How do you target an element knowing its class?</h2>
-    <h2 class="slide-element medium-header header">How do you assign a class to an HTML element?</h2>
-    <h2 class="slide-element medium-header header">How do you define a listener?</h2>
-    <h2 class="slide-element medium-header header">What does this do? <code>document.querySelectorAll('div')</code></h2>
-  </div>
-</div>
-
 <!-- End -->
 <div class="page-piece part-five">
   <h2>Now you will be subjected to a programming joke . . .</h2>
 </div>
 
 <div class="page-piece part-five">
-  <h1>Why did the functions stop calling each other?</h1>
+  <h1>How do you comfort a JavaScript bug?</h1>
 
   <div class="sub-header-container">
-    <h2 class="slide-element medium-header header">Because they had constant arguments.</h2>
+    <h2 class="slide-element medium-header header">You console it.</h2>
   </div>
 </div>
 
