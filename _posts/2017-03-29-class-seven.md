@@ -110,7 +110,7 @@ There are lots of web service APIs, and most big websites like <a href="https://
 
 <br>
 
-<h3 class="header small-header">Ajax API requests</h3>
+<h3 class="header small-header">AJAX API requests</h3>
 
 Although there's several ways to make GET requests with JavaScript, probably the most popular one is `AJAX`.
 
@@ -136,7 +136,7 @@ The easiest way for us to make an AJAX request is to use jQuery's `$.ajax()` met
 var animal = "SeaLion";
 
 // API I want to use: Encyclopedia of Life API http://eol.org/api
-// I make an Ajax request specifying my animal within the URL (this URL is the address of the API)
+// I make an AJAX request specifying my animal within the URL (this URL is the address of the API)
 $.ajax({
   method: "GET",
   url: "http://eol.org/api/search/" + animal + ".json"
@@ -167,6 +167,6 @@ $.ajax({
 
 <br>
 <h3 class="header small-header">Resources</h3>
-* Mozilla Developer Network, <a href="https://developer.mozilla.org/en-US/docs/AJAX" target="blank">Ajax</a>
-* TeamTreehouse, <a href="https://www.codementor.io/sheena/ajax-tutorial-web-development-du107rzaq" target="blank">Ajax tutorial</a>
-* W3Schools, <a href="https://www.w3schools.com/xml/ajax_intro.asp" target="blank">Ajax Introduction</a>
+* Mozilla Developer Network, <a href="https://developer.mozilla.org/en-US/docs/AJAX" target="blank">AJAX</a>
+* TeamTreehouse, <a href="https://www.codementor.io/sheena/ajax-tutorial-web-development-du107rzaq" target="blank">AJAX tutorial</a>
+* W3Schools, <a href="https://www.w3schools.com/xml/ajax_intro.asp" target="blank">AJAX Introduction</a>
