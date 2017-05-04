@@ -21,9 +21,11 @@ slides: false
 
 <h2 class="header medium-header">Modules</h2>
 
-So far, we've been writing <a href="" target="blank">ES5 standard</a> JavaScript code. That means we've been working with a version of JavaScript that was meant to be implemented by 2015 on all browsers.
+So far, we've been writing ES5 standard JavaScript code. That means we've been working with a version of JavaScript that was meant to be implemented by 2015 on all browsers.
 
-There's now a new standard, the <a href="" target="blank">ES6 standard</a>, which incorporated many new concepts and big changes. (The reason we haven't used it in this class is because no browsers actually support it natively. So in order to use the ES6 standard, we have to include a special library that takes the ES6 code we write as input, and returns to us the same code but 'translated' to the ES5 standard.)
+There's now a new standard, the ES6 standard, which incorporated many new concepts and big changes.
+
+The reason we haven't used it in this class is because no browsers actually support it natively. So in order to use the ES6 standard, we have to include a special library that takes the ES6 code we write as input, and returns to us the same code but 'translated' to the ES5 standard. Read more about the standards and the differences <a href="https://benmccormick.org/2015/09/14/es5-es6-es2016-es-next-whats-going-on-with-javascript-versioning/" target="blank">here</a>.
 
 One of the new concepts brought in with ES6 are `modules`.
 
