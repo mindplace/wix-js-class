@@ -1,42 +1,24 @@
-function clearInput(){
-  $("ul").html("");
-  $(".found-some").hide();
-}
-
 $(document).ready(function(){
-  $(".found-some").hide();
 
   $(".rhyming-word-request").on("submit", function(e){
+    // Prevent default behaviour of submitting a form: in this case, prevent page refreshing
     e.preventDefault();
-    var requestedWord = $("#word").val();
 
-    // Datamuse API: http://www.datamuse.com/api/
-    var url = "https://api.datamuse.com/words";
-    var data = {
-      "rel_rhy": requestedWord
-    }
+    // Get word from the input
 
-    // our API call goes here
+    // build a variable 'data' with information on the kind of words back you want, with the word user wrote
+    var data;
+
+    // our API call to Datamuse happens here
+    // Datamuse API information: http://www.datamuse.com/api/
     $.ajax({
-      url: url,
-      data: data,
-      method: "GET"
+      url: "https://api.datamuse.com/words",
+      method: "GET",
+      data: data
     }).done(function(response){
-
-      var ul = $("ul");
-
-      for (var i=0; i < response.length; i++){
-        var newWord = "<li>" + response[i].word + "</li>";
-        $(ul).append(newWord)
-      }
-
-      $(".found-some").show();
-    })
+      // what should happen when you get back the response?
+    });
+    
   });
-
-
-  $(".rhyming-word-request input")
-    .on("focus", clearInput)
-    .on("keydown", clearInput)
 
 });
