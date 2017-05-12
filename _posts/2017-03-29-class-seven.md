@@ -6,13 +6,13 @@ permalink: /class-seven
 complete: false
 is_next: true
 prep_work: true
-slides: false
+slides: true
 ---
 
 <h1 class="large-header">Class Materials and Content</h1>
 
 <div class="button-wrapper">
-  <a class="get-slides-link" href="#"><button>Class slides</button></a>
+  <a class="get-slides-link" href="{{ site.baseurl }}/class-seven-slides"><button>Class slides</button></a>
 
   <a class="get-slides-link green-color" href="{{ site.baseurl }}/materials/class-seven.zip"><button>Get the Code</button></a>
 </div>
@@ -36,6 +36,7 @@ You're dealing with a module anytime you see the `export` or `import` statements
 <br>
 
 <h3 class="header small-header">Resources</h3>
+* FreeCodeCamp, </a>
 * <a href="https://spring.io/understanding/javascript-modules" target="blank">Understanding JavaScript Modules</a>
 * *Exploring JavaScript*, chapter 6: <a href="http://exploringjs.com/es6/ch_modules.html" target="blank">Modules</a>
 * *Eloquent JavaScript*, chapter 10: <a href="http://eloquentjavascript.net/10_modules.html" target="blank">Modules</a>
@@ -95,22 +96,22 @@ console.log(myCompactArray)
 
 Web service APIs are where programs, instead of users, can make requests for information.
 
-You can think of it as your computer browsing the internet, rather than you personally.
+You can think of it as your computer browsing the Internet, rather than you personally.
 
 When you try to access a website online, you are actually make a request for some files. Those files are returned to your browser and you get to view and interact with them. (This is the essence / basis of the internet.)
 
-When a program or computer asks for information from another program or computer, it does so in a slightly different way. Just as you have a way of entering a website (using your URL), so does your program or computer have ability to access a web server's interface by using different kinds of requests, and having the address of where to send the request.
+When an application asks for information from another application, it does so in a slightly different way. Just as you have a way of entering a website (using your URL), so does your application have ability to access a web server's interface by using different kinds of requests, and having the address of where to send the request.
 
 The most common requests are:
 
 * `GET` requests. These ask for information, such as a web page.
 * `POST` requests. These ask that certain information be created or updated, such as a username and password.
 
-There are lots of web service APIs, and most big websites like <a href="https://dev.twitter.com/overview/api" target="blank">Twitter have their own open APIs that are accessible by programs and computers</a>, rather than users. Have you ever seen a Twitter feed on another site? That's a program asking the Twitter API for information.  
+There are lots of web service APIs, and most big websites like <a href="https://dev.twitter.com/overview/api" target="blank">Twitter have their own open APIs that are accessible by applications</a>, rather than users. Have you ever seen a Twitter feed on another site? That's a program asking the Twitter API for information.  
 
 <br>
 
-<h3 class="header small-header">AJAX API requests</h3>
+<h3 class="header small-header" id="ajax">AJAX API requests</h3>
 
 Although there's several ways to make GET requests with JavaScript, probably the most popular one is `AJAX`.
 
