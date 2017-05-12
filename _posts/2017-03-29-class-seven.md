@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "class[7]"
-description: "Modules, APIs, and Ajax."
+description: "Modules, APIs, and AJAX."
 permalink: /class-seven
 complete: false
 is_next: true
@@ -27,7 +27,7 @@ There's now a new standard, the ES6 standard, which incorporated many new concep
 
 The reason we haven't used it in this class is because no browsers actually support it natively. So in order to use the ES6 standard, we have to include a special library that takes the ES6 code we write as input, and returns to us the same code but 'translated' to the ES5 standard. Read more about the standards and the differences <a href="https://benmccormick.org/2015/09/14/es5-es6-es2016-es-next-whats-going-on-with-javascript-versioning/" target="blank">here</a>.
 
-One of the new concepts brought in with ES6 are `modules`.
+One of the new concepts brought in with ES6 are `modules`. (Well, there were JavaScript modules before ES6, but were only rarely used, so modules are thought of as an ES6 thing.)
 
 A `module` is a self-contained, small, independent bit of code, often in its own file. It is included in other files, and then those files have access to the module's code. The module's code is wrapped up as an object or a function, which can be used by the files that pull in that module.
 
