@@ -43,7 +43,10 @@
       .video-wrap {
         text-align: center;
         margin: 4.0rem 0;
-        .video { margin: auto; }
+        .video {
+          margin: auto;
+          max-width: 100%;
+        }
       }
 
       .button-wrapper {

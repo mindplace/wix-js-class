@@ -1,13 +1,14 @@
 ---
 layout: post
 title: "class[0]"
+tagline: "Intro to JS, HTML, CSS. Setting up your computer."
 description: "Introduction to current state of JavaScript, why HTML and CSS is necessary, and setting up a development environment."
 prep_work: true
 slides: true
 permalink: /class-zero
 complete: true
 ---
-<h1 class="large-header">Class materials/content</h1>
+<h1 class="large-header">Class materials and content</h1>
 
 <a class="get-slides-link" href="{{ site.baseurl }}/class-zero-slides"><button>Class slides</button></a>
 

@@ -8,7 +8,13 @@
  p {
    width: 60%;
    margin-bottom: 0;
-   font-size: 1.3rem; }
+   font-size: 1.3rem;
+
+   @media screen and (max-width: $on-palm) {
+    width: 100%; 
+    padding-top: 10px;
+   }
+ }
 
  a {
    color: black;
@@ -44,6 +50,8 @@
     box-sizing: border-box;
     @media screen and (max-width: $on-palm) {
       width: 100%;
+      max-width: 100%;
+      margin-bottom: 0;
     }
     max-width: 57%;
   }
@@ -53,6 +61,7 @@
     @media screen and (max-width: $on-palm) {
       width: 100%;
       margin: 0;
+      margin-bottom: 20px;
     }
 
     width: 40%;

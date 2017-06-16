@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "class[3]"
+tagline: "if, else, while, and for statements."
 description: "Control flow with <code>if</code> and <code>else</code>, loops with <code>while</code> and <code>for</code>."
 permalink: /class-three
 prep_work: true
@@ -9,7 +10,7 @@ is_next: false
 complete: true
 ---
 
-<h1 class="large-header">Class materials/content</h1>
+<h1 class="large-header">class materials and content</h1>
 
 <a class="get-slides-link" href="{{ site.baseurl }}/class-three-slides"><button>Class slides</button></a>
 

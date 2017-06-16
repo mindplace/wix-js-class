@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "class[5]"
+tagline: "Intro to the DOM, manipulating HTML with JS."
 description: "Introduction to the DOM, selecting and altering HTML elements, and using DevTools."
 permalink: /class-five
 complete: true

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "class[7]"
+tagline: "Modules, APIs, and AJAX."
 description: "Modules, APIs, and AJAX."
 permalink: /class-seven
 complete: true
@@ -36,7 +37,7 @@ You're dealing with a module anytime you see the `export` or `import` statements
 <br>
 
 <h3 class="header small-header">Resources</h3>
-* FreeCodeCamp, </a>
+* FreeCodeCamp, <a href="https://medium.freecodecamp.com/javascript-modules-a-beginner-s-guide-783f7d7a5fcc" target="blank">JavaScript Modules: A Beginner's Guide</a>
 * <a href="https://spring.io/understanding/javascript-modules" target="blank">Understanding JavaScript Modules</a>
 * *Exploring JavaScript*, chapter 6: <a href="http://exploringjs.com/es6/ch_modules.html" target="blank">Modules</a>
 * *Eloquent JavaScript*, chapter 10: <a href="http://eloquentjavascript.net/10_modules.html" target="blank">Modules</a>
@@ -56,11 +57,10 @@ The main ones we care about are `library APIs` and `web service APIs`.
 
 A library API is a file someone else wrote that you can include into your project. You include this external library in your code, which gives you access to the functionality included in the library.
 
-Let's say we want to use the awesome library `lodash.js`. This is a library that allows us to use common programming functionality for arrays, such as different ways of sorting them.
+Let's say we want to use the awesome library `lodash.js`. This is a library that allows us to use common programming functionality for arrays and objects, such as different ways of sorting them.
 
 ```html
 <!-- Our HTML page -->
-
 <head>
 
   <!-- Lodash CDN, included BEFORE the file I intend to use Lodash in -->
@@ -77,7 +77,6 @@ After loading the library, I am able to use its functions / functionality: this 
 ```javascript
 // main.js
 
-// our array object
 var myArray = ["Ash", true, undefined, 21, false]
 
 // loading Lodash into this file

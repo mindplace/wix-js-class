@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "class[4]"
+tagline: "Functions and built-in methods"
 description: "Functions, built-in methods, and lots of practice!"
 permalink: /class-four
 prep_work: true
@@ -11,7 +12,6 @@ is_next: false
 <h1 class="large-header">Class Materials and Content</h1>
 
 <a class="get-slides-link" href="{{ site.baseurl }}/class-four-slides"><button>Class slides</button></a>
-
 
 <h2 class="header large-header">Pre-class Prep work</h2>
 
