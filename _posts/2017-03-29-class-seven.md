@@ -3,8 +3,8 @@ layout: post
 title: "class[7]"
 description: "Modules, APIs, and AJAX."
 permalink: /class-seven
-complete: false
-is_next: true
+complete: true
+is_next: false
 prep_work: true
 slides: true
 ---
